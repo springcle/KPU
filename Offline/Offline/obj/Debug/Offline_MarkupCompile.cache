@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\
+C:\Users\AJ\Source\Repos\off-line\Offline\Offline\obj\Debug\
 Offline
 none
 false
 DEBUG;TRACE
-C:\Users\김낙윤\Desktop\Offline\Offline\App.xaml
+C:\Users\AJ\Source\Repos\off-line\Offline\Offline\App.xaml
 13317554113
 
 271217734696
-821632045490
+781117234863
 Dialog\LoginDialog.xaml;Dialog\PortConnectDialog.xaml;Dialog\SignUpDialog.xaml;Frame\Analaysis\FrameAnalysis.xaml;Frame\Analaysis\FrameAnalysisResult.xaml;Frame\Analaysis\FrameAnalysisSurvey.xaml;Frame\Calibration\EOGCalibration.xaml;Frame\FrameMenu.xaml;Frame\Calibration\GuidLine.xaml;Frame\Graph\Graph.xaml;MainWindow.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;
 
-False
+True
 
