@@ -1,0 +1,142 @@
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\bin\Debug\Offline.exe.config
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\bin\Debug\Offline.exe
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\bin\Debug\Offline.pdb
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Offline.csprojResolveAssemblyReference.cache
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\MainWindow.g.cs
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\App.g.cs
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Offline_MarkupCompile.cache
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Offline_MarkupCompile.lref
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\MainWindow.baml
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Offline.g.resources
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Offline.Properties.Resources.resources
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Offline.csproj.GenerateResource.Cache
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Offline.exe
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Offline.pdb
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\bin\Debug\MahApps.Metro.dll
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\bin\Debug\MetroFramework.dll
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\bin\Debug\MetroFramework.Fonts.dll
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\bin\Debug\System.Windows.Interactivity.dll
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\bin\Debug\MahApps.Metro.pdb
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\bin\Debug\MahApps.Metro.xml
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Resources\Icons.baml
+c:\users\aj\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\App.baml
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Dialog\LoginDialog.g.cs
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Dialog\SignUpDialog.g.cs
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Dialog\LoginDialog.baml
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Dialog\SignUpDialog.baml
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Frame\FrameMenu.g.cs
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Frame\FrameMenu.baml
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysisSurvey.g.cs
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysisSurvey.baml
+C:\Users\AJ\Documents\Visual Studio 2017\Projects\Offline\Offline\bin\Debug\Microsoft.Graph.Core.dll
+C:\Users\AJ\Documents\Visual Studio 2017\Projects\Offline\Offline\bin\Debug\Microsoft.Graph.dll
+C:\Users\AJ\Documents\Visual Studio 2017\Projects\Offline\Offline\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AJ\Documents\Visual Studio 2017\Projects\Offline\Offline\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Frame\Calibration\GuidLine.g.cs
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Frame\Calibration\GuidLine.baml
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Frame\Calibration\EOGCalibration.g.cs
+C:\Users\AJ\documents\visual studio 2017\Projects\Offline\Offline\obj\Debug\Frame\Calibration\EOGCalibration.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\bin\Debug\Offline.exe.config
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Offline.exe
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Offline.pdb
+C:\Users\김낙윤\Desktop\Offline\Offline\bin\Debug\Offline.exe
+C:\Users\김낙윤\Desktop\Offline\Offline\bin\Debug\Offline.pdb
+C:\Users\김낙윤\Desktop\Offline\Offline\bin\Debug\MahApps.Metro.dll
+C:\Users\김낙윤\Desktop\Offline\Offline\bin\Debug\MetroFramework.dll
+C:\Users\김낙윤\Desktop\Offline\Offline\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\김낙윤\Desktop\Offline\Offline\bin\Debug\Microsoft.Graph.Core.dll
+C:\Users\김낙윤\Desktop\Offline\Offline\bin\Debug\Microsoft.Graph.dll
+C:\Users\김낙윤\Desktop\Offline\Offline\bin\Debug\Newtonsoft.Json.dll
+C:\Users\김낙윤\Desktop\Offline\Offline\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\김낙윤\Desktop\Offline\Offline\bin\Debug\MahApps.Metro.pdb
+C:\Users\김낙윤\Desktop\Offline\Offline\bin\Debug\MahApps.Metro.xml
+C:\Users\김낙윤\Desktop\Offline\Offline\bin\Debug\Newtonsoft.Json.xml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Offline.csprojResolveAssemblyReference.cache
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Dialog\SignUpDialog.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Resources\Icons.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Dialog\LoginDialog.g.cs
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Dialog\SignUpDialog.g.cs
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysisSurvey.g.cs
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\Calibration\EOGCalibration.g.cs
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\FrameMenu.g.cs
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\Calibration\GuidLine.g.cs
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\MainWindow.g.cs
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\App.g.cs
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Offline_MarkupCompile.cache
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Offline_MarkupCompile.lref
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\App.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Dialog\LoginDialog.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysisSurvey.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\Calibration\EOGCalibration.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\FrameMenu.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\Calibration\GuidLine.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\MainWindow.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Offline.g.resources
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Offline.Properties.Resources.resources
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Offline.csproj.GenerateResource.Cache
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysis.g.cs
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysisResult.g.cs
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\Graph\Graph.g.cs
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysis.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysisResult.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Frame\Graph\Graph.baml
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Offline.csproj.ResolveComReference.cache
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Dialog\PortConnectDialog.g.cs
+C:\Users\김낙윤\Desktop\Offline\Offline\obj\Debug\Dialog\PortConnectDialog.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Offline.csprojResolveAssemblyReference.cache
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Offline.csproj.ResolveComReference.cache
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Dialog\SignUpDialog.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Resources\Icons.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Dialog\LoginDialog.g.cs
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Dialog\PortConnectDialog.g.cs
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Dialog\SignUpDialog.g.cs
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysis.g.cs
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysisResult.g.cs
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysisSurvey.g.cs
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\Calibration\EOGCalibration.g.cs
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\FrameMenu.g.cs
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\Calibration\GuidLine.g.cs
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\Graph\Graph.g.cs
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\MainWindow.g.cs
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\App.g.cs
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Offline_MarkupCompile.cache
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Offline_MarkupCompile.lref
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Offline.exe
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Offline.pdb
+C:\Users\AJ\Desktop\Offline\Offline\bin\Debug\Offline.exe.config
+C:\Users\AJ\Desktop\Offline\Offline\bin\Debug\Offline.exe
+C:\Users\AJ\Desktop\Offline\Offline\bin\Debug\Offline.pdb
+C:\Users\AJ\Desktop\Offline\Offline\bin\Debug\MahApps.Metro.dll
+C:\Users\AJ\Desktop\Offline\Offline\bin\Debug\MetroFramework.dll
+C:\Users\AJ\Desktop\Offline\Offline\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\AJ\Desktop\Offline\Offline\bin\Debug\Microsoft.Graph.Core.dll
+C:\Users\AJ\Desktop\Offline\Offline\bin\Debug\Microsoft.Graph.dll
+C:\Users\AJ\Desktop\Offline\Offline\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AJ\Desktop\Offline\Offline\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\AJ\Desktop\Offline\Offline\bin\Debug\MahApps.Metro.pdb
+C:\Users\AJ\Desktop\Offline\Offline\bin\Debug\MahApps.Metro.xml
+C:\Users\AJ\Desktop\Offline\Offline\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\App.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Dialog\LoginDialog.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Dialog\PortConnectDialog.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysis.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysisResult.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\Analaysis\FrameAnalysisSurvey.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\Calibration\EOGCalibration.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\FrameMenu.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\Calibration\GuidLine.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Frame\Graph\Graph.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\MainWindow.baml
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Offline.g.resources
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Offline.Properties.Resources.resources
+C:\Users\AJ\Desktop\Offline\Offline\obj\Debug\Offline.csproj.GenerateResource.Cache
+C:\Users\김낙윤\Source\Repos\off-line\Offline\Offline\bin\Debug\Offline.exe.config
+C:\Users\김낙윤\Source\Repos\off-line\Offline\Offline\obj\Debug\Offline.csproj.ResolveComReference.cache
+C:\Users\김낙윤\Source\Repos\off-line\Offline\Offline\obj\Debug\Offline.exe
+C:\Users\김낙윤\Source\Repos\off-line\Offline\Offline\obj\Debug\Offline.pdb
