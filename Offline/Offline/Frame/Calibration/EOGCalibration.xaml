@@ -1,0 +1,56 @@
+﻿<frame:BaseFrame x:Class="Offline.Frame.Calibration.EOGCalibration"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Offline.Frame.Calibration"
+             mc:Ignorable="d" 
+                 xmlns:graph="clr-namespace:Offline.Frame.Graph"
+             xmlns:frame="clr-namespace:Offline.Frame"       
+             d:DesignHeight="1080" d:DesignWidth="1920">
+    <Grid Background="#FF6FC7B7" x:Name="user_info">
+        <Grid x:Name="Frame">
+            <Grid Margin="250,5,1500,1028">
+                <DockPanel Background="#ffffff">
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Foreground="#FF6FC7B7" FontFamily="/Resources/Font/#나눔스퀘어OTF">센서 연결</TextBlock>
+                </DockPanel>
+            </Grid>
+            <Grid Margin="100,50,100,50">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5*"></RowDefinition>
+                    <RowDefinition Height="5*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <DockPanel Grid.Row="0" x:Name="calibration_left" Background="#ffffff">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock Foreground="#2f2f2f" FontSize="25" VerticalAlignment="Top" FontWeight="DemiBold" Margin="60,100,0,0" FontFamily="Berlin Sans FB" Grid.ColumnSpan="2" >Fp1</TextBlock>
+                        <DockPanel Grid.Row="1" Grid.ColumnSpan="2" >
+                             <graph:Graph x:Name="graph_fp1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></graph:Graph>
+                        </DockPanel>
+                    </Grid>
+                </DockPanel>
+                <DockPanel Grid.Row="1" x:Name="calibration_right" Background="#ffffff" Margin="0,-1,0,0">
+                    <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Foreground="#2f2f2f" FontSize="25" VerticalAlignment="Top" FontWeight="DemiBold"  Margin="60,100,0,0" FontFamily="Berlin Sans FB" >Fp2</TextBlock>
+                        <DockPanel Grid.Row="1">
+                             <graph:Graph x:Name="graph_fp2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></graph:Graph>
+                        </DockPanel>
+                    </Grid>
+                </DockPanel>
+                <DockPanel Grid.Row="2">
+                    <!--<Button Margin="0,0,0,40" Background="#FF70D2D6" FontSize="15" VerticalAlignment="Bottom" HorizontalAlignment="Center" Foreground="#ffffff" Padding="50,10,50,10" Click="calibration_next_click">다 음</Button>-->
+                </DockPanel>
+            </Grid>
+        </Grid>
+        <Grid Background="#ffffff" x:Name="blurBackground"></Grid>
+        <TextBlock x:Name="infomationText" Foreground="#000000" FontSize="100" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="/Resources/Font/#나눔스퀘어OTF" Text="잠시 기다려주세요."/>
+    </Grid>
+
+</frame:BaseFrame>
