@@ -1,0 +1,61 @@
+﻿<Controls:MetroWindow
+        x:Class="Offline.Dialog.ENVDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Offline.Dialog"
+        mc:Ignorable="d"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:Behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        Height="500" Width="500" ResizeMode="NoResize" ForceCursor="False" ShowInTaskbar="False" WindowStyle="None"
+        Title="ENV">
+    <Grid x:Name="Main" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30*"></ColumnDefinition>
+            <ColumnDefinition Width="70*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="Left" Grid.Column="0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="90*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid x:Name="ImageBar" Margin="0,0,1,0" Background="#FF363636">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30*"></ColumnDefinition>
+                    <ColumnDefinition Width="70*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" Background="#FF363636">
+                    <Image Margin="5,5,5,5" Source="C:\Users\AJ\Source\Repos\off-line\Offline\Offline\Resources\Image\Setting.png"></Image>
+                </Grid>
+                <Grid Grid.Column="1" Background="#FF363636">
+                    <TextBlock  Text="환경 설정"  FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                </Grid>
+            </Grid>
+            <DockPanel  Margin="0,0,1,0" Grid.Row="1">
+                <ListBox x:Name="List" Foreground="White" Background="#FF444444" SelectionChanged="List_SelectionChanged" >
+                    <TextBlock x:Name="save" Text="저장" />
+                   
+                </ListBox>
+            </DockPanel>
+        </Grid>
+        <Grid x:Name="Right" Grid.Column="1" Background="#FF444444">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="85*"></RowDefinition>
+                <RowDefinition Height="15*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid  Grid.Row="0" Grid.Column="1" Margin="30,00,30,30" Background="#FF444444">
+                <DockPanel  x:Name="Frame"></DockPanel>
+            </Grid>
+            <Grid x:Name="Button" Grid.Row="1" Grid.Column="1"  Background="#FF44444">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="OKButton" Content="확인" Grid.Column="0" Margin="20,10,0,20" FontSize="12" Click="OKButton_Click" ></Button>
+                <Button x:Name="CancleButton" Content="취소" Grid.Column="1" Margin="10,10,10,20" FontSize="12" Click="CancleButton_Click"></Button>
+            </Grid >
+        </Grid>
+    </Grid>
+    </Controls:MetroWindow>
+

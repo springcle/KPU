@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="Offline.Frame.Graph.Graph"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Offline.Frame.Graph"
+             mc:Ignorable="d" 
+             xmlns:winformchart="clr-namespace:System.Windows.Forms.DataVisualization.Charting;assembly=System.Windows.Forms.DataVisualization"
+             SizeChanged="UserControl_SizeChanged"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+        <Grid>
+            <WindowsFormsHost x:Name="host" Height="Auto">
+                <winformchart:Chart x:Name="chart1" Dock="Left"  AntiAliasing="Graphics" IsSoftShadows="False">
+                    <winformchart:Chart.Series>
+                        <winformchart:Series Name="series" ChartType="FastLine" BackImageWrapMode="Unscaled" />
+                    </winformchart:Chart.Series>
+                    <winformchart:Chart.ChartAreas>
+                        <winformchart:ChartArea />
+                    </winformchart:Chart.ChartAreas>
+                    <winformchart:Chart.Legends>
+                        <winformchart:Legend >
+                        </winformchart:Legend>
+                    </winformchart:Chart.Legends>
+                </winformchart:Chart>
+            </WindowsFormsHost>
+        </Grid>
+    </ScrollViewer>
+</UserControl>

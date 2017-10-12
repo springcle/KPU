@@ -1,0 +1,204 @@
+﻿<frame:BaseFrame x:Class="Offline.Frame.Analaysis.FrameAnalysisResult"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Offline.Frame.Analaysis"
+             xmlns:frame="clr-namespace:Offline.Frame"
+             xmlns:graph="clr-namespace:Offline.Frame.Graph"
+             mc:Ignorable="d"
+                   d:DesignHeight="1080" d:DesignWidth="1920">
+  <Grid Background="#FF6FC7B7">
+    <Grid Background="#ffffff" Margin="250,5,1500,1025">
+      <DockPanel Background="#ffffff">
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Foreground="#FF6FC7B7" FontFamily="/Resources/Font/#나눔스퀘어OTF">검사 결과</TextBlock>
+      </DockPanel>
+    </Grid>
+    <Grid x:Name="Frame" Background="#ffffff" Margin="100,50,100,50">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="0.25*"></RowDefinition>
+        <RowDefinition Height="0.25*"></RowDefinition>
+        <RowDefinition Height="1.25*"></RowDefinition>
+        <RowDefinition Height="2*"></RowDefinition>
+        <RowDefinition Height="0.25*"></RowDefinition>
+      </Grid.RowDefinitions>
+      <DockPanel Grid.Column="0" Grid.Row="1">
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+          </Grid.ColumnDefinitions>
+          <DockPanel Grid.Column="0" Margin="60,0,60,0" HorizontalAlignment="Center">
+            <TextBlock FontWeight="Heavy"  FontFamily="Berlin Sans FB" FontSize="40" Foreground="#2f2f2f" HorizontalAlignment="Center" VerticalAlignment="Center">Meditation</TextBlock>
+          </DockPanel>
+          <DockPanel Grid.Column="1" Margin="60,0,60,0">
+            <TextBlock FontWeight="Heavy"  FontFamily="Berlin Sans FB" FontSize="40" Foreground="#2f2f2f" HorizontalAlignment="Center" VerticalAlignment="Center">Concentration</TextBlock>
+          </DockPanel>
+        </Grid>
+      </DockPanel>
+      <DockPanel Grid.Column="0" Grid.Row="2">
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="0.5*"></RowDefinition>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+          </Grid.ColumnDefinitions>
+          <DockPanel Grid.Column="0" Grid.Row="0" Margin="60,0,60,0">
+            <Grid>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+              </Grid.ColumnDefinitions>
+              <DockPanel Grid.Column="0">
+                <Image x:Name="meditation_bad_image" Stretch="Fill"  Source="/Resources/Image/fatigue1.png" Margin="20"></Image>
+              </DockPanel>
+              <DockPanel Grid.Column="1">
+                <Image x:Name="meditation_normal_image" Stretch="Fill" Source="/Resources/Image/normal1.png" Margin="20"></Image>
+              </DockPanel>
+              <DockPanel Grid.Column="2">
+                <Image x:Name="meditation_good_image" Stretch="Fill" Source="/Resources/Image/concentration1.png" Margin="20"></Image>
+              </DockPanel>
+            </Grid>
+          </DockPanel>
+          <DockPanel Grid.Column="0" Grid.Row="1" Margin="60,0,60,0">
+            <Grid>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+              </Grid.ColumnDefinitions>
+              <DockPanel Grid.Column="0">
+                <TextBlock x:Name="meditation_bad" FontWeight="Heavy"  FontFamily="Berlin Sans FB" FontSize="35" Foreground="#efefef" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="80,25,80,25" Background="#FFDC6767">Bad</TextBlock>
+              </DockPanel>
+              <DockPanel Grid.Column="1">
+                <TextBlock x:Name="meditation_normal" FontWeight="Heavy"  FontFamily="Berlin Sans FB" FontSize="35" Foreground="#efefef" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="40,25,40,25" Background="#FF589CC3">Normal</TextBlock>
+              </DockPanel>
+              <DockPanel Grid.Column="2">
+                <TextBlock x:Name="meditation_good" FontWeight="Heavy"  FontFamily="Berlin Sans FB" FontSize="35" Foreground="#efefef" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="65,25,65,25" Background="#FF62BF6B">Good</TextBlock>
+              </DockPanel>
+            </Grid>
+          </DockPanel>
+          <DockPanel Grid.Row="2" Margin="60,0,60,30">
+            <!--
+                        <Canvas Background="#cecece"></Canvas>
+                        -->
+          </DockPanel>
+          <DockPanel Grid.Column="1" Grid.Row="0" Margin="60,0,60,0">
+            <Grid>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+              </Grid.ColumnDefinitions>
+              <DockPanel Grid.Column="0">
+                <Image x:Name="concentration_bad_image" Stretch="Fill" Source="/Resources/Image/fatigue1.png" Margin="20"></Image>
+              </DockPanel>
+              <DockPanel Grid.Column="1">
+                <Image x:Name="concentration_normal_image" Stretch="Fill" Source="/Resources/Image/normal1.png" Margin="20"></Image>
+              </DockPanel>
+              <DockPanel Grid.Column="2">
+                <Image x:Name="concentration_good_image" Stretch="Fill" Source="/Resources/Image/concentration1.png" Margin="20"></Image>
+              </DockPanel>
+            </Grid>
+          </DockPanel>
+          <DockPanel Grid.Column="1" Grid.Row="1" Margin="60,0,60,0">
+            <Grid>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+              </Grid.ColumnDefinitions>
+              <DockPanel Grid.Column="0">
+                <TextBlock x:Name="concentration_bad" FontWeight="Heavy"  FontFamily="Berlin Sans FB" FontSize="35" Foreground="#efefef" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="80,25,80,25" Background="#FFDC6767">Bad</TextBlock>
+              </DockPanel>
+              <DockPanel Grid.Column="1">
+                <TextBlock x:Name="concentration_normal" FontWeight="Heavy"  FontFamily="Berlin Sans FB" FontSize="35" Foreground="#efefef" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="40,25,40,25" Background="#FF589CC3">Normal</TextBlock>
+              </DockPanel>
+              <DockPanel Grid.Column="2">
+                <TextBlock x:Name="concentration_good" FontWeight="Heavy"  FontFamily="Berlin Sans FB" FontSize="35" Foreground="#efefef" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="65,25,65,25" Background="#FF62BF6B">Good</TextBlock>
+              </DockPanel>
+            </Grid>
+          </DockPanel>
+          <DockPanel Grid.Column="1" Grid.Row="2" Margin="60,0,60,30">
+            <!--
+                        <Canvas Background="#cecece"></Canvas>
+                        -->
+          </DockPanel>
+        </Grid>
+      </DockPanel>
+
+      <DockPanel Grid.Column="0" Grid.Row="3">
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"></ColumnDefinition>
+            <ColumnDefinition Width="6*"></ColumnDefinition>
+            <ColumnDefinition Width="8*"></ColumnDefinition>
+          </Grid.ColumnDefinitions>
+          <DockPanel Grid.Column="0">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="8*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+              </Grid.RowDefinitions>
+                            <DockPanel Grid.Row="0" Margin="30,60,30,0" >
+                                <WindowsFormsHost VerticalAlignment="Bottom" HorizontalAlignment="Center" x:Name="meditationTrendGraph"/>
+                            </DockPanel>
+              <DockPanel Grid.Row="1" Margin="0,0,0,0">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" Foreground="#2f2f2f" FontFamily="/Resources/Font/#나눔스퀘어OTF">Meditation Trend</TextBlock>
+              </DockPanel>
+            </Grid>
+          </DockPanel>
+          <DockPanel Grid.Column="2">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="8*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+              </Grid.RowDefinitions>
+                            <DockPanel Grid.Row="0" Margin="30,60,30,0" >
+                                <WindowsFormsHost VerticalAlignment="Bottom" HorizontalAlignment="Center" x:Name="concentrarionTrendGraph"/>
+                            </DockPanel>
+                            <DockPanel Grid.Row="1" Margin="0,0,0,0">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" Foreground="#2f2f2f" FontFamily="/Resources/Font/#나눔스퀘어OTF">Concentration Trend</TextBlock>
+              </DockPanel>
+            </Grid>
+          </DockPanel>
+          <DockPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+              </Grid.ColumnDefinitions>
+              <DockPanel Grid.Row="0" Grid.Column="0">
+                <TextBlock Margin="0" FontWeight="Heavy"  FontFamily="Berlin Sans FB" FontSize="35" Foreground="#efefef" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="35,10,35,10" Background="#FFE6E680"> Left</TextBlock>
+              </DockPanel>
+              <DockPanel Grid.Row="0" Grid.Column="2">
+                <TextBlock Margin="0,0,0,0" FontWeight="Heavy"  FontFamily="Berlin Sans FB" FontSize="35" Foreground="#efefef" HorizontalAlignment="Center" VerticalAlignment="Top" Padding="20,10,20,10" Background="#FFE8C485">Right</TextBlock>
+              </DockPanel>
+              <DockPanel Grid.Row="1"  Grid.Column="0" Margin="0,20,0,0" HorizontalAlignment="Center">
+                <TextBlock x:Name="brain_left" FontWeight="Heavy"  FontFamily="Berlin Sans FB" FontSize="35" Foreground="#2f2f2f" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="50,10,50,10" >00</TextBlock>
+              </DockPanel>
+              <DockPanel Grid.Row="1"  Grid.Column="1" Margin="0,20,0,0">
+                <TextBlock FontWeight="Heavy"  FontFamily="Berlin Sans FB" FontSize="35" Foreground="#2f2f2f" HorizontalAlignment="Center" VerticalAlignment="Center">:</TextBlock>
+              </DockPanel>
+              <DockPanel Grid.Row="1"  Grid.Column="2" HorizontalAlignment="Center" Margin="0,20,0,0">
+                <TextBlock x:Name="brain_right" FontWeight="Heavy"  FontFamily="Berlin Sans FB" FontSize="35" Foreground="#2f2f2f" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="30,10,30,10">00</TextBlock>
+              </DockPanel>
+            </Grid>
+          </DockPanel>
+        </Grid>
+      </DockPanel>
+      <DockPanel Grid.Column="0" Grid.Row="4">
+        <Button VerticalAlignment="Center" HorizontalAlignment="Center" Width="140" Height="35" FontSize="13" Background="#FF70D2D6" Foreground="#ffffff" Click="Analysis_reuslt_ok">확 인</Button>
+      </DockPanel>
+    </Grid>
+  </Grid>
+</frame:BaseFrame>

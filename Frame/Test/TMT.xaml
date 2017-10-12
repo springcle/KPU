@@ -1,0 +1,1133 @@
+﻿<frame:BaseFrame x:Class="Offline.Frame.Test.TMT"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Offline.Frame.Test"
+             xmlns:frame ="clr-namespace:Offline.Frame"
+                 xmlns:metro="http://schemas.microsoft.com/xps/2005/06"
+                 mc:Ignorable="d" 
+                  d:DesignHeight="1080" d:DesignWidth="1920">
+    <Grid Background="#FF6FC7B7">
+        <Grid Margin="250,5,1500,1025" Background="#ffffff">
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#FF6FC7B7" FontSize="20" FontFamily="/Resources/Font/#나눔스퀘어OTF">집중도 검사</TextBlock>
+        </Grid>
+        <Grid Background="#ffffff" Margin="100,50,100,50" Visibility="Visible">
+            <TextBlock HorizontalAlignment="Center" Margin="0,45,0,0" FontSize="50" FontWeight="Bold" FontFamily="Berlin Sans FB" Foreground="#FF4D5151">Concentration Test</TextBlock>
+            <Grid Background="#FF66B0A1" Margin="437,127,437,77">
+            </Grid>
+            <Grid Background="#ffffff" Margin="438,128,438,78">
+            </Grid>
+            <Grid Background="#FF95C3BB" Margin="439,129,439,79">
+            </Grid>
+            <Grid x:Name="Frame" Background="#ffffff" Margin="440,130,440,80">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave" Margin="5" Grid.Column="0" Grid.Row="0" >
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse >
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="A" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="1" Grid.Row="0">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="1" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="2" Grid.Row="0">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="3" Grid.Row="0">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="4" Grid.Row="0">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="5" Grid.Row="0">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="6" Grid.Row="0">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="0" Grid.Row="1">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="1" Grid.Row="1">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="2" Grid.Row="1">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="3" Grid.Row="1">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="4" Grid.Row="1">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="5" Grid.Row="1">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="6" Grid.Row="1">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="0" Grid.Row="2">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="1" Grid.Row="2">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="2" Grid.Row="2">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="3" Grid.Row="2">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="4" Grid.Row="2">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="5" Grid.Row="2">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="6" Grid.Row="2">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="0" Grid.Row="3">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="1" Grid.Row="3">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="2" Grid.Row="3">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="3" Grid.Row="3">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="4" Grid.Row="3">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="5" Grid.Row="3">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="6" Grid.Row="3">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="0" Grid.Row="4">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="1" Grid.Row="4">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="2" Grid.Row="4">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="3" Grid.Row="4">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="4" Grid.Row="4">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="5" Grid.Row="4">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="6" Grid.Row="4">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="0" Grid.Row="5">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="1" Grid.Row="5">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="2" Grid.Row="5">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="3" Grid.Row="5">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="4" Grid.Row="5">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="5" Grid.Row="5">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="6" Grid.Row="5">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="0" Grid.Row="6">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="1" Grid.Row="6">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="2" Grid.Row="6">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="3" Grid.Row="6">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="4" Grid.Row="6">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="5" Grid.Row="6">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+                <Grid Width="72" Height="72" MouseUp="Grid_MouseUp" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave"  Margin="5" Grid.Column="6" Grid.Row="6">
+                    <Ellipse Fill="#FFBCE6D8"/>
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <RadialGradientBrush>
+                                <GradientStop Offset="0" Color="#00ffffff"/>
+                                <GradientStop Offset="0.88" Color="#10000000"/>
+                                <GradientStop Offset="1" Color="#40000000"/>
+                            </RadialGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <Ellipse Margin="10">
+                        <Ellipse.Fill>
+                            <LinearGradientBrush>
+                                <GradientStop Offset="0" Color="#50FFFFFF"/>
+                                <GradientStop Offset="0.5" Color="#00FFFFFF"/>
+                                <GradientStop Offset="1" Color="#50FFFFFF"/>
+                            </LinearGradientBrush>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <TextBlock Text="0" VerticalAlignment="center" HorizontalAlignment="Center" FontSize="25" FontFamily="/Resources/Font/#나눔스퀘어OTF" Foreground="#ffffff"></TextBlock>
+                </Grid>
+            </Grid>
+        </Grid>
+
+        <DockPanel Background="#ffffff" x:Name="blurBackground" Visibility="Hidden" >
+            <TextBlock x:Name="infomationText" Foreground="#000000" FontSize="100" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="/Resources/Font/#나눔스퀘어OTF"  Text="잠시 기다려주세요."/>
+        </DockPanel>
+
+        <DockPanel x:Name="flower" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Hidden" >
+            <Image Source="C:\Users\AJ\Source\Repos\off-line\Offline\Offline\Resources\Image\Wait_flower.png"></Image>
+        </DockPanel>
+    </Grid>
+
+</frame:BaseFrame>
